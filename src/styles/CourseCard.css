@@ -1,0 +1,102 @@
+.course_card_container {
+    border-radius: 10px;
+    border: none;
+    max-width: 18rem;
+    margin: 1rem 0rem;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    box-shadow: 0px 2px 0px rgba(158, 156, 156, 0.5);
+    transition: box-shadow 0.3s ease-in;
+}
+
+.card_icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.course_card_container:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card_image img {
+    border-radius: 10px 10px 0px 0px;
+    width: 18rem;
+    height: 12rem;
+}
+
+.level_icons {
+    background-color: rgba(41, 147, 209, .1);
+    color: #2993d1;
+    padding: 0.4rem;
+    border-radius: 8px;
+}
+
+.card_content {
+    padding: 2rem
+}
+
+.card_content h3 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.card_footer {
+    padding: 0.9rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 990px) {
+    .course_card_container {
+        margin: 0.8rem;
+        /* min-width: 22.5rem; */
+    }
+    .card_image img{
+        width: 20rem;
+        /* height: 15rem; */
+    }
+
+}
+
+@media only screen and (max-width: 780px) {
+    .course_card_container {
+       margin: 1rem 2rem;
+       min-width: 35rem;
+    }
+
+    .card_image img {
+        border-radius: 10px 10px 0px 0px;
+        width: 35rem;
+        height: 20rem;
+    }
+}
+
+
+@media only screen and (max-width: 630px) {
+    .course_card_container {
+       margin: 1rem 2rem;
+       min-width: 25rem;
+    }
+
+    .card_image img {
+        border-radius: 10px 10px 0px 0px;
+        width: 25rem;
+        height: 18rem;
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+    .course_card_container {
+        margin: 1rem 2rem;
+        min-width: 20rem;
+     }
+ 
+     .card_image img {
+         border-radius: 10px 10px 0px 0px;
+         width: 20rem;
+         height: 13rem;
+     }
+}

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap');
+
+.home_container{
+    transition:  0.3s ease-in-out;
+}
+.section {
+    margin-top: 8rem;
+    display: flex;
+}
+
+.section .left {
+    width: 50%;
+    padding: 1rem 4rem;
+}
+
+.watchOverViewContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.section .right {
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.section2_item i {
+    font-size: 2.5rem;
+}
+
+.section .left h1 {
+    /* font-weight: 900; */
+    font-size: 3.5rem;
+    margin: 1rem 0;
+}
+
+.section .left p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.section .left .button_container {
+    margin: 2rem 0;
+    display: flex;
+}
+
+.section .left .button_container button {
+    margin: 0 1rem;
+}
+
+.section .right .main_girl_image {
+    position: absolute;
+    padding: 1rem;
+}
+
+.joinNow_button {
+    background-color: #2993d1;
+    border: none;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.watch_overView {
+    background-color: transparent;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.section .right .image_container {
+    position: relative;
+}
+
+.section .right .image_container .speaker_image {
+    position: absolute;
+    left: -3rem;
+    margin-top: 10rem;
+}
+
+.section .right .image_container .weekly_image {
+    z-index: 1;
+    position: absolute;
+    margin-top: 20rem;
+    left: 1rem;
+}
+
+.section .right .image_container .instructor_image {
+    z-index: 1;
+    position: absolute;
+    margin-top: 0rem;
+    margin-left: 15rem;
+}
+
+.section .right .image_container .target_image {
+    z-index: 1;
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 18rem;
+
+}
+
+.section .left .appStore_playStore_Container img {
+    margin: 0 1rem;
+}
+
+.section_2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    padding: 2rem 4rem;
+}
+
+.section2_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+    min-width: 24%;
+    border: 1px solid rgb(200, 194, 194);
+    border-left: none;
+}
+
+.section2_item_4 {
+    border-right: none;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section .left {
+        width: 80%;
+        margin-left: 0rem;
+    }
+
+    .section .right {
+        margin-bottom: 25rem;
+    }
+
+    .section2_item {
+        width: 45%;
+        /* border: 1px solid rgb(200, 194, 194); */
+        margin-left: 0.1rem;
+    }
+
+    .section2_item_1,
+    .section2_item_2 {
+        border-left: none;
+    }
+
+    .section2_item_2 {
+        border-right: none;
+    }
+
+}
+
+.home_open{
+    margin-top: 10rem;
+    transition:  0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 780px) {
+    .section {
+        flex-direction: column;
+        /* align-items: flex-start; */
+        align-items: self-start;
+    }
+
+    .section .left {
+        padding: 1rem;
+    }
+
+    .section .right {
+        margin-left: 7rem;
+    }
+
+    .section2_item {
+        width: 100%;
+        border: 1px solid rgb(200, 194, 194);
+        margin-left: 0.1rem;
+        border-right: none;
+        border-left: none;
+
+    }
+
+}
+
+.home_open{
+    margin-top: 20rem;
+    transition:  0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 550px) {
+
+    .home_open{
+        margin-top: 20rem;
+        transition:  0.3s ease-in-out;
+    }
+    .section .right {
+        margin-left: 0rem;
+    }
+
+    .section .right .image_container .speaker_image {
+        left: 5rem;
+        z-index: 1;
+    }
+
+    .section .right .image_container .instructor_image {
+        margin-left: 13rem;
+    }
+
+    .section .right .image_container .target_image {
+        margin-left: 14rem;
+    }
+
+    .section .right .image_container .troffee_image {
+        position: absolute;
+        /* margin-left: 2rem; */
+    }
+
+}

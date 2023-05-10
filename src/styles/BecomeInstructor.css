@@ -1,0 +1,131 @@
+.becomeInstructor_container{
+    margin-top: 10rem;
+    padding: 2rem 4rem;
+    padding-bottom: 15rem;
+}
+.becomeInstructor_container .top{
+    height: 15rem;
+    display: flex;
+}
+.becomeInstructor_container .top .left{
+    width: 35%;
+    padding: 0rem;
+}
+.becomeInstructor_container .top .left h1{
+   font-size: 3.9rem;
+}
+.becomeInstructor_container .top .right{
+    padding: 2rem 0;
+   width: 65%;
+   font-size: 1.5rem;
+}
+.becomeInstructor_container .top .profiles{
+    position: relative;
+}
+.becomeInstructor_container .top .profiles img{
+    border: 4px solid white;
+    width: 4rem;
+    position: absolute;
+    border-radius: 50px;
+}
+.profile_icon_1{
+    margin-top: -5rem;
+    margin-left: 14rem;
+}
+.profile_icon_2{
+    margin-top: -5rem;
+    margin-left: 11.5rem;
+}
+.profile_icon_3{
+    margin-top: -5rem;
+    margin-left: 8.5rem;
+}
+.profile_icon_4{
+    margin-top: -5rem; 
+    margin-left: 6rem;
+}
+.becomeInstructor_container .middle{
+    display: flex;
+    justify-content: space-between;
+}
+.profile_icon_1:hover{
+    /* margin-top: -5rem; */
+    z-index: 2;
+    /* margin-left: 6rem; */
+}
+.profile_icon_2:hover{
+    /* margin-top: -5rem; */
+    z-index: 2;
+    /* margin-left: 6rem; */
+}
+.profile_icon_3:hover{
+    /* margin-top: -5rem; */
+    z-index: 2;
+    /* margin-left: 6rem; */
+}
+.profile_icon_4:hover{
+    /* margin-top: -5rem; */
+    z-index: 2;
+    /* margin-left: 6rem; */
+}
+
+
+.becomeInstructor_container .middle h1{
+    margin-bottom: 1.2rem;
+}
+.becomeInstructor_container .middle .right{
+    /* display: flex; */
+    max-width: 27rem;
+    /* justify-content: space-between; */
+}
+
+.becomeInstructor_container .middle p{
+    font-size: 1.3rem;
+}
+.becomeInstructor_container .footer button{
+    margin-top: 2rem;
+    background-color: #2993d1;
+    color: white;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 990px) {
+    .becomeInstructor_container .top .left{
+        width: 50%;
+    }
+    .becomeInstructor_container .top .right{
+        width: 50%;
+    }
+ }
+
+ @media only screen and (max-width: 780px) {
+    .becomeInstructor_container .top{
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+    .becomeInstructor_container .top .left{
+        width: 100%;
+    }
+
+    .becomeInstructor_container .top .right{
+        width: 100%;
+    }
+
+    .becomeInstructor_container .middle{
+        flex-direction: column;
+    }
+    .becomeInstructor_container .middle div{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+  
+ }
+
+ @media only screen and (max-width: 580px) {
+        .becomeInstructor_container .middle{
+            margin-top: 15rem;
+        }
+ }

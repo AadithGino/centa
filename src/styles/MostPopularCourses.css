@@ -1,0 +1,46 @@
+.most_popular_courses_container{
+    padding: 2rem 4rem;
+}
+.most_popular_courses_container h1{
+    margin-bottom: 1rem;
+}
+
+.most_popular_courses_container h3{
+    font-weight: lighter;
+    margin-bottom: 4rem;
+    color: #475569;
+}
+
+.most_popular_courses_container .courses_navbar .selected{
+    border-bottom: 1px #2993d1 ;
+    color: #2993d1;
+}
+
+.most_popular_courses_container .courses_navbar{
+    margin: 2rem 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 1rem 0;
+    overflow-x: scroll;
+}
+.most_popular_courses_container .courses_navbar div{
+    cursor: pointer;
+    font-size: 1.2rem;
+    display: inline-block;
+    color: #475569;
+    margin: 1rem 2rem;
+}
+.courses_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 990px) {
+    .courses_container{
+        justify-content: center;
+    }
+    .course_card_container{
+        margin: 0 2rem;
+    }
+ 
+ }
